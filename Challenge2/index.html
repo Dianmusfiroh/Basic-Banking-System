@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    </head>
+<body style="background-color: cornflowerblue;">
+<div class="container">
+    <div class=" d-flex justify-content-center  align-self-center my-5">
+        <div class="card ">
+            <div class="card-header ">
+            Bank Account
+            </div>
+            <div class="card-body ">
+            <h5 class="card-title">Saldo Bank</h5>
+            <h6 class="card-title" id="saldo">Rp. 0</h6>
+            <p class="">Silahkan pilih transaksi yang ingin anda lakukan</p>
+            <div class="card-text text text-center">
+                <button  onclick="bankAccount.deposit()" class="btn btn-primary col-5">Deposit</button>
+                <button onclick="bankAccount.withdraw()" class="btn btn-danger col-5">Withdraw</button>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<script src="banking_system.js"></script>
+
+</body>
+</html>
